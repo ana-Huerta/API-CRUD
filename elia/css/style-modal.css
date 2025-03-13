@@ -1,0 +1,49 @@
+/*Importar la fuente*/
+@font-face {
+    font-family: 'Neuropol';
+    src: url('./fonts/Neuropol.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.modal-content{
+    background-color: #434343;
+    font-family: 'Neuropol', sans-serif;
+    color: #e0c56a;
+}
+
+.btn-close{
+    background-color: #e0c56a;
+}
+
+.caja{
+    border: none;
+    border-radius: 15px;
+    background-color: #333333;
+    color: white;
+}
+
+.imagen{
+    width: 50%;
+    height: 50%;
+}
+
+.modal-body{
+    font-size: 20px;
+}
+
+.cerrar{
+    color: #e0c56a;
+    background-color: black;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.confirmar{
+    color: #000000;
+    background-color: #e0c56a;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+}

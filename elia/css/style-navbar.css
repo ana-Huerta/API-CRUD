@@ -1,0 +1,71 @@
+/*Importar la fuente*/
+@font-face {
+    font-family: 'Neuropol';
+    src: url('./fonts/Neuropol.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilos navbar*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4); /* Negro con 70% de opacidad */
+    padding: 10px 20px;
+}
+
+.image{
+    padding-left: 10px;
+    padding-right: 5%;
+    width: 12%;
+    height: 12%;
+}
+
+.title {
+    color: #e0c59a;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 25px;
+}
+
+.buscador{
+    padding-left: 27%;
+    padding-right: 3%;
+}
+
+.form-control{
+    color: #e0c59a;
+    font-family: 'Neuropol', sans-serif;
+}
+
+.nav-item{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: #e0c59a;
+}
+
+.titulo{
+    color: #e0c59a;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.dropdown-menu{
+    background-color: #000000;
+    border-color: #e0c59a;
+}
+
+.dropdown-item{
+    color: #e0c59a;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: none;
+}
+
+.dropdown-item:hover{
+    background-color: #000000;
+    color: #e0c59a;
+}
+
+.opcion{
+    background-color:  #000000;
+    border: none;
+}
